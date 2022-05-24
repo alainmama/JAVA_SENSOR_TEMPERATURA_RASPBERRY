@@ -1,0 +1,13 @@
+Para compilar el proyecto en java
+
+javac -classpath .:classes:/opt/pi4j/lib/'*' -d . SensorTemperaturaInfrarrojo.java
+
+para correr el código en java
+
+sudo java -classpath .:classes:/opt/pi4j/lib/'*' SensorTemperaturaInfrarrojo
+
+Raspberry  (pin)                  GY906
+3 (SDA)                           SDA
+4 (+5)                            VIN
+5 (SCL)                           SCL
+6 (GND)                           GND
